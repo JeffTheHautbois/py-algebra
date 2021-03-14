@@ -1,3 +1,10 @@
+"""
+using the property of associativity treat exp in base 2
+exp in base 2 will have exactly floor(log_2(n)) + 1 digits 
+it only takes O(log n) multiplications to calculate the exponent
+"""
+
+
 def binexp_recursive(a, exp):
     if exp == 0:
         return 1
