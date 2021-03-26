@@ -28,4 +28,4 @@ def ext_gcd_iterative(a: int, b: int):
         x, x_1 = x_1, x - q * x_1
         y, y_1 = y_1, y - q * y_1
         a_1, b_1 = b_1, a_1 - q * b_1
-    return a_1
+    return a_1, x, y
