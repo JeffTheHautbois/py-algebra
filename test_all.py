@@ -18,4 +18,4 @@ def test_euclidean():
 
 def test_ext_euclidean():
     assert (ext_gcd_recursive(1180, 482)[0] == math.gcd(1180, 482))
-    assert (ext_gcd_iterative(250, 75) == math.gcd(250, 75))
+    assert (ext_gcd_iterative(250, 75)[0] == math.gcd(250, 75))
